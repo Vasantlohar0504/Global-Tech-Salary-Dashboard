@@ -1,136 +1,88 @@
-# 🌍 Global Tech Salary Dashboard
-
+# 🛡️ Phishing Email Detection System
 ## 📊 Project Overview
-The **Global Tech Salary Dashboard** analyzes worldwide technology and data science salary trends using SQL and data visualization.
-This project explores how salaries vary based on job roles, experience levels, company size, and geographic location.
 
-The project combines **data analysis with SQL** and **interactive dashboards built in Tableau** to provide insights into the global tech job market.
+The **Phishing Email Detection** System is a Machine Learning–based web application that detects whether an email is Phishing or Legitimate.
+The system analyzes email content, URLs, and attachments using Natural Language Processing (NLP) and machine learning models.
+
+This project demonstrates how AI can improve email security, helping users identify phishing attacks, analyze suspicious links, and check attachments in real time.
+
+---
+##🛠 Tools & Technologies
+*Python – Backend programming and ML model development
+*Flask – Web application framework
+*Scikit-learn – Machine learning model creation
+*Pandas & NumPy – Data preprocessing and manipulation
+*SQLite – Database management for logs and users
+*HTML, CSS, JavaScript – Frontend interface
+*NLP Techniques – Email text preprocessing and feature extraction
 
 ---
 
-## 🛠 Tools & Technologies
-* **SQL** – Data analysis and querying
-* **MySQL** – Database management
-* **Tableau Public** – Data visualization and dashboard creation
-* **VS Code** – SQL query development
-* **GitHub** – Version control and project sharing
+##📂 Dataset
+*The dataset contains emails labeled as Phishing or Legitimate, including:
+*Email Content (text)
+*URLs contained in the email
+*Attachments
+*Email Labels (Phishing / Legitimate)
 
 ---
-
-## 📁 Project Structure
-```
-Global-Tech-Salary-Dashboard
-│
-├── dataset
-│   └── Latest_Data_Science_Salaries.csv
-│
-├── sql
-│   └── salary_analysis.sql
-│
-├── tableau
-│   └── dashboard.twbx
-│
-└── README.md
-```
+##🔎 Machine Learning Workflow
+*Email Input: User enters email text (and optionally URLs or attachments).
+*Text Preprocessing: Emails are cleaned using NLP techniques.
+*Feature Extraction: Important features extracted from text, URLs, and attachments.
+*Model Prediction: Trained ML model predicts whether the email is phishing or legitimate.
+*Result Display: Dashboard shows the prediction with clear classification and details about suspicious links or attachments.
 
 ---
-
-## 📂 Dataset
-The dataset contains global salary information for **data science and tech-related roles**, including:
-* Job Title
-* Experience Level
-* Employment Type
-* Company Location
-* Company Size
-* Salary Currency
-* Salary in USD
-* Year
+##📈 Key Features
+*User Authentication (Login & Signup)
+*Phishing Detection via ML
+*URL Analysis to detect malicious links
+*Attachment Analysis to check for harmful files
+*Prediction results displayed clearly on the dashboard
+*Logs to track previous email analyses
+*Model Retraining for improved accuracy
+*Simple, user-friendly web interface
 
 ---
-
-## 🔎 SQL Analysis
-SQL was used to explore and analyze salary trends.
-Some of the key queries include:
-* Average salary by job title
-* Salary by experience level
-* Salary distribution by company size
-* Highest paying tech roles
-* Global salary comparison by country
-* Yearly salary trends
-
-These queries are stored in:
-```
-sql/salary_analysis.sql
-```
+##🎯 Key Insights
+*Phishing emails often contain urgent or threatening language.
+*Suspicious URLs and attachments are strong indicators of phishing.
+*The system improves cybersecurity awareness and reduces risk of attacks.
+*Model accuracy improves with regular retraining on new email datasets.
 
 ---
+##🚀 How to Run This Project
+*1️⃣ Clone Repository
+git clone https://github.com/Vasantlohar0504/phishing-email-detection.git
+cd phishing-email-detection
 
-## 📈 Tableau Dashboard
-The dashboard created in **Tableau** includes:
+*2️⃣ Create Virtual Environment
+python -m venv venv
+# Windows
+venv\Scripts\activate
+# Mac / Linux
+source venv/bin/activate
 
-### KPI Metrics
-* Average Salary
-* Total Jobs
-* Highest Salary
+*3️⃣ Install Dependencies
+pip install -r requirements.txt
 
-### Visualizations
-* Salary Trend by Year
-* Global Salary Map
-* Salary by Experience Level
-* Salary by Company Size
-* Salary by Job Title
+*4️⃣ Start Flask Server
+python app.py
 
-### Interactive Filters
-* Year
-* Experience Level
-* Company Size
-* Employment Type
 
----
+Open your browser and visit:
+http://127.0.0.1:5000
 
-## 🎯 Key Insights
-* Senior and specialized roles such as **Machine Learning Engineers** and **Analytics Engineers** receive the highest salaries.
-* Larger companies tend to offer higher salary packages.
-* Tech salaries vary significantly across countries.
-* Salaries have shown an increasing trend in recent years.
+##📊 Example Usage
+Input Email:
+Dear user,
+Your account has been suspended. Click here to verify your account immediately.
+Prediction Result:
+⚠️ Phishing Email Detected
 
----
+URLs & Attachments Checked: Suspicious link detected, attachment safe
 
-## 🚀 How to Run This Project
-
-### 1️⃣ Import Dataset into MySQL
-Create database:
-```sql
-CREATE DATABASE tech_salary_dashboard;
-```
-
-Create table and import dataset.
-
----
-
-### 2️⃣ Run SQL Analysis
-Execute queries from:
-
-```
-salary_analysis.sql
-```
-
----
-
-### 3️⃣ Open Tableau Dashboard
-Open the Tableau file:
-```
-tableau/dashboard.twbx
-```
-
-Explore the interactive dashboard.
-
----
-## Live Interactive Dashboard
-
-View the interactive Tableau dashboard here:
-🔗 https://public.tableau.com/views/GlobalTechSalaryDashboard/Dashboard1
----
-
-## 👨‍💻 Author
+##👨‍💻 Author
 Vasant Lohar
+Data Analyst | Data Science Enthusiast
