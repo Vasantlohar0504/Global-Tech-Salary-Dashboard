@@ -126,11 +126,10 @@ tableau/dashboard.twbx
 Explore the interactive dashboard.
 
 ---
+## Live Interactive Dashboard
 
-## 📷 Dashboard Preview
-
-*(Add screenshot of your Tableau dashboard here)*
-
+View the interactive Tableau dashboard here:
+🔗 https://public.tableau.com/views/GlobalTechSalaryDashboard/Dashboard1
 ---
 
 ## 👨‍💻 Author
