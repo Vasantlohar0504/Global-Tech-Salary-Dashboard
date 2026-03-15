@@ -156,8 +156,3 @@ Feel free to **use, modify, and share** this project.
 # 👨‍💻 Author
 
 **Vasant Lohar** | Data Analyst 
-
-🔗 GitHub:
-[https://github.com/Vasantlohar0504](https://github.com/Vasantlohar0504)
-
----
