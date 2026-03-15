@@ -1,141 +1,158 @@
 
 # 🌍 Global Tech Salary Dashboard
----
-## 📄 License
-This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and share.
-```
-A comprehensive project analyzing **global technology and data science salaries** using SQL and **interactive Tableau dashboards**. This project explores how salaries vary based on job roles, experience levels, company size, and geographic location, providing actionable insights for professionals and organizations.
+
+![SQL](https://img.shields.io/badge/SQL-Data%20Analysis-blue)
+![MySQL](https://img.shields.io/badge/MySQL-Database-orange)
+![Tableau](https://img.shields.io/badge/Tableau-Visualization-purple)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+A **data analytics project** that explores **global technology and data science salaries** using **SQL analysis and interactive Tableau dashboards**.
+This project uncovers salary trends across **job roles, experience levels, company sizes, and geographic locations**, providing valuable insights for professionals and organizations.
 
 ---
 
-## 📊 Project Overview
-The **Global Tech Salary Dashboard** combines **data analysis with SQL** and **visual dashboards in Tableau** to deliver insights into the global tech job market. Users can explore salary trends, top-paying roles, and geographic comparisons in a structured and interactive way.
+# 📊 Project Overview
+
+The **Global Tech Salary Dashboard** combines **data analysis with SQL** and **data visualization with Tableau** to analyze the global tech job market.
+
+The project enables users to explore:
+✔ Salary trends across different tech roles
+✔ Geographic salary comparisons
+✔ Impact of experience level on compensation
+✔ Company size influence on salary
+✔ Market demand insights for tech professionals
 
 ---
 
-## 🛠 Tools & Technologies
-- **SQL** – Data analysis and querying  
-- **MySQL** – Database management  
-- **Tableau Public** – Data visualization and dashboard creation  
-- **VS Code** – SQL query development  
-- **GitHub** – Version control and project sharing  
+# 🛠 Tools & Technologies
+| Tool               | Purpose                           |
+| ------------------ | --------------------------------- |
+| **SQL**            | Data querying and analysis        |
+| **MySQL**          | Database management               |
+| **Tableau Public** | Interactive data visualization    |
+| **VS Code**        | SQL query development             |
+| **GitHub**         | Version control & project sharing |
 
 ---
 
-## 📁 Project Structure
-```
+# 📂 Dataset
 
-Global-Tech-Salary-Dashboard
-│
-├── dataset
-│   └── Latest_Data_Science_Salaries.csv
-│
-├── sql
-│   └── salary_analysis.sql
-│
-├── tableau
-│   └── dashboard.twbx
-│
-└── README.md
+The dataset contains **global salary information for data science and technology roles**, including:
+* Job Title
+* Experience Level
+* Employment Type
+* Company Location
+* Company Size
+* Salary Currency
+* Salary in USD
+* Work Year
 
-````
+This dataset allows analysis of **salary patterns across the global tech industry**.
 
 ---
 
-## 📂 Dataset
+# 🔎 SQL Analysis
 
-The dataset contains global salary information for **data science and tech-related roles**, including:
-- Job Title  
-- Experience Level  
-- Employment Type  
-- Company Location  
-- Company Size  
-- Salary Currency  
-- Salary in USD  
-- Year  
+SQL queries were used to analyze salary trends and extract meaningful insights.
 
----
+### Key Analyses Performed
+* 📊 Average salary by job title
+* 📈 Salary comparison by experience level
+* 🏢 Salary distribution by company size
+* 💰 Highest paying tech roles
+* 🌍 Global salary comparison by country
+* 📅 Yearly salary trend analysis
 
-## 🔎 SQL Analysis
-
-SQL queries were used to explore and analyze salary trends. Key analyses include:
-- Average salary by job title  
-- Salary by experience level  
-- Salary distribution by company size  
-- Highest paying tech roles  
-- Global salary comparison by country  
-- Yearly salary trends  
-
-All SQL queries are available in:  
-`sql/salary_analysis.sql`
-
----
-
-## 📈 Tableau Dashboard
-
-The **Tableau dashboard** provides an interactive visualization of salary trends.
-
-### KPI Metrics
-
-- Average Salary  
-- Total Jobs  
-- Highest Salary  
-
-### Visualizations
-- Salary Trend by Year  
-- Global Salary Map  
-- Salary by Experience Level  
-- Salary by Company Size  
-- Salary by Job Title  
-
-### Interactive Filters
-- Year  
-- Experience Level  
-- Company Size  
-- Employment Type  
-
----
-
-## 🎯 Key Insights
-- Senior and specialized roles such as **Machine Learning Engineers** and **Analytics Engineers** receive the highest salaries.  
-- Larger companies tend to offer **higher salary packages**.  
-- Tech salaries **vary significantly across countries**.  
-- Salaries have shown an **increasing trend** over recent years.  
-
----
-
-## 🚀 How to Run This Project
-
-### 1️⃣ Import Dataset into MySQL
-
-Create database:
-```sql
-CREATE DATABASE tech_salary_dashboard;
-````
-Create tables and import the dataset using your preferred method (MySQL Workbench or command line).
----
-### 2️⃣ Run SQL Analysis
-Execute the queries stored in:
+All queries are available in:
 ```
 sql/salary_analysis.sql
 ```
-to explore salary trends and generate insights.
+
+---
+# 📈 Tableau Dashboard
+
+The **Tableau dashboard** provides an interactive visual exploration of salary trends and job market insights.
+
+### 📊 KPI Metrics
+* **Average Salary**
+* **Total Jobs**
+* **Highest Salary**
+
+### 📉 Visualizations
+* Salary Trend by Year
+* Global Salary Distribution Map
+* Salary by Experience Level
+* Salary by Company Size
+* Salary by Job Title
+
+### 🎛 Interactive Filters
+
+Users can dynamically filter the dashboard by:
+* Year
+* Experience Level
+* Company Size
+* Employment Type
+
+---
+
+# 🌐 Live Interactive Dashboard
+
+Explore the dashboard online:
+
+🔗 **Tableau Public Dashboard**
+[https://public.tableau.com/views/GlobalTechSalaryDashboard/Dashboard1](https://public.tableau.com/views/GlobalTechSalaryDashboard/Dashboard1)
+
+---
+
+# 🎯 Key Insights
+
+Some insights discovered from the analysis:
+* **Machine Learning Engineers** and **Analytics Engineers** earn the highest salaries.
+* **Senior-level professionals** earn significantly higher salaries compared to entry-level roles.
+* **Large companies** tend to offer more competitive salary packages.
+* Tech salaries **vary significantly by country**.
+* Global tech salaries have shown an **increasing trend over recent years**.
+
+---
+
+# 🚀 How to Run This Project
+
+### 1️⃣ Import Dataset into MySQL
+Create a database:
+```sql
+CREATE DATABASE tech_salary_dashboard;
+```
+Import the dataset using **MySQL Workbench** or **command line tools**.
+---
+
+### 2️⃣ Run SQL Analysis
+Execute the SQL queries stored in:
+```
+sql/salary_analysis.sql
+```
+These queries generate insights used in the dashboard.
 ---
 ### 3️⃣ Open Tableau Dashboard
 Open the Tableau file:
 ```
 tableau/dashboard.twbx
 ```
-Use interactive filters to explore data visually.
+Use interactive filters to explore the data visually.
 ---
-## 🌐 Live Interactive Dashboard
-Explore the dashboard online:
-🔗 [Global Tech Salary Dashboard](https://public.tableau.com/views/GlobalTechSalaryDashboard/Dashboard1)
+# 📜 License
+
+This project is licensed under the **MIT License**.
+
+Feel free to **use, modify, and share** this project.
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
-**Vasant Lohar** – Data Analyst | Data Science Enthusiast
-[GitHub Profile](https://github.com/Vasantlohar0504)
+**Vasant Lohar**
+Data Analyst | Data Science Enthusiast
 
+🔗 GitHub:
+[https://github.com/Vasantlohar0504](https://github.com/Vasantlohar0504)
+
+---
