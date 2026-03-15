@@ -16,6 +16,7 @@ This project uncovers salary trends across **job roles, experience levels, compa
 The **Global Tech Salary Dashboard** combines **data analysis with SQL** and **data visualization with Tableau** to analyze the global tech job market.
 
 The project enables users to explore:
+
 ✔ Salary trends across different tech roles
 ✔ Geographic salary comparisons
 ✔ Impact of experience level on compensation
@@ -149,8 +150,7 @@ Feel free to **use, modify, and share** this project.
 
 # 👨‍💻 Author
 
-**Vasant Lohar**
-Data Analyst | Data Science Enthusiast
+**Vasant Lohar** | Data Analyst 
 
 🔗 GitHub:
 [https://github.com/Vasantlohar0504](https://github.com/Vasantlohar0504)
