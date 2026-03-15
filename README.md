@@ -17,10 +17,15 @@ The **Global Tech Salary Dashboard** combines **data analysis with SQL** and **d
 
 The project enables users to explore:
 
+
 ✔ Salary trends across different tech roles
+
 ✔ Geographic salary comparisons
+
 ✔ Impact of experience level on compensation
+
 ✔ Company size influence on salary
+
 ✔ Market demand insights for tech professionals
 
 ---
