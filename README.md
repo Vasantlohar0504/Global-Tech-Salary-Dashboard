@@ -11,7 +11,7 @@ This project uncovers salary trends across **job roles, experience levels, compa
 
 ---
 
-# 📊 Project Overview
+#  Project Overview
 
 The **Global Tech Salary Dashboard** combines **data analysis with SQL** and **data visualization with Tableau** to analyze the global tech job market.
 
@@ -30,7 +30,7 @@ The project enables users to explore:
 
 ---
 
-# 🛠 Tools & Technologies
+#  Tools & Technologies
 | Tool               | Purpose                           |
 | ------------------ | --------------------------------- |
 | **SQL**            | Data querying and analysis        |
@@ -41,7 +41,7 @@ The project enables users to explore:
 
 ---
 
-# 📂 Dataset
+#  Dataset
 
 The dataset contains **global salary information for data science and technology roles**, including:
 * Job Title
@@ -57,17 +57,17 @@ This dataset allows analysis of **salary patterns across the global tech industr
 
 ---
 
-# 🔎 SQL Analysis
+#  SQL Analysis
 
 SQL queries were used to analyze salary trends and extract meaningful insights.
 
 ### Key Analyses Performed
-* 📊 Average salary by job title
-* 📈 Salary comparison by experience level
-* 🏢 Salary distribution by company size
-* 💰 Highest paying tech roles
-* 🌍 Global salary comparison by country
-* 📅 Yearly salary trend analysis
+*  Average salary by job title
+*  Salary comparison by experience level
+*  Salary distribution by company size
+*  Highest paying tech roles
+*  Global salary comparison by country
+*  Yearly salary trend analysis
 
 All queries are available in:
 ```
@@ -75,23 +75,23 @@ sql/salary_analysis.sql
 ```
 
 ---
-# 📈 Tableau Dashboard
+#  Tableau Dashboard
 
 The **Tableau dashboard** provides an interactive visual exploration of salary trends and job market insights.
 
-### 📊 KPI Metrics
+###  KPI Metrics
 * **Average Salary**
 * **Total Jobs**
 * **Highest Salary**
 
-### 📉 Visualizations
+###  Visualizations
 * Salary Trend by Year
 * Global Salary Distribution Map
 * Salary by Experience Level
 * Salary by Company Size
 * Salary by Job Title
 
-### 🎛 Interactive Filters
+###  Interactive Filters
 
 Users can dynamically filter the dashboard by:
 * Year
@@ -110,7 +110,7 @@ Explore the dashboard online:
 
 ---
 
-# 🎯 Key Insights
+#  Key Insights
 
 Some insights discovered from the analysis:
 * **Machine Learning Engineers** and **Analytics Engineers** earn the highest salaries.
@@ -121,7 +121,7 @@ Some insights discovered from the analysis:
 
 ---
 
-# 🚀 How to Run This Project
+#  How to Run This Project
 
 ### 1️⃣ Import Dataset into MySQL
 Create a database:
@@ -145,7 +145,7 @@ tableau/dashboard.twbx
 ```
 Use interactive filters to explore the data visually.
 ---
-# 📜 License
+#  License
 
 This project is licensed under the **MIT License**.
 
