@@ -101,7 +101,7 @@ Users can dynamically filter the dashboard by:
 
 ---
 
-# 🌐 Live Interactive Dashboard
+#  Live Interactive Dashboard
 
 Explore the dashboard online:
 
@@ -123,7 +123,7 @@ Some insights discovered from the analysis:
 
 #  How to Run This Project
 
-### 1️⃣ Import Dataset into MySQL
+### 1️ Import Dataset into MySQL
 Create a database:
 ```sql
 CREATE DATABASE tech_salary_dashboard;
@@ -131,14 +131,14 @@ CREATE DATABASE tech_salary_dashboard;
 Import the dataset using **MySQL Workbench** or **command line tools**.
 ---
 
-### 2️⃣ Run SQL Analysis
+### 2️ Run SQL Analysis
 Execute the SQL queries stored in:
 ```
 sql/salary_analysis.sql
 ```
 These queries generate insights used in the dashboard.
 ---
-### 3️⃣ Open Tableau Dashboard
+### 3️ Open Tableau Dashboard
 Open the Tableau file:
 ```
 tableau/dashboard.twbx
@@ -153,6 +153,6 @@ Feel free to **use, modify, and share** this project.
 
 ---
 
-# 👨‍💻 Author
+#  Author
 
 **Vasant Lohar** | Data Analyst 
